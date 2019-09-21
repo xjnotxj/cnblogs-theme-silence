@@ -1,0 +1,11 @@
+{
+  "overrides": [
+    {
+      "files": "*.less",
+      "options": {
+        "tabWidth": 4,
+        "singleQuote": true
+      }
+    }
+  ]
+}

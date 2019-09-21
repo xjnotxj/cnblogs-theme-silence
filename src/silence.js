@@ -387,7 +387,7 @@
                 $('.esa-anchor-link').on('click', function () {
                     let position = $('#' + ($(this).prev('i').attr('class'))).offset().top;
                     $('html, body').animate({
-                        scrollTop: position - 70
+                        scrollTop: position - (70 + 40)
                     }, 300);
                 });
 
